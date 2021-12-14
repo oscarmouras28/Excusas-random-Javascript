@@ -4,9 +4,9 @@ let when = ['el repositorio cuando terminamos','el codigo ayer','el html cuando 
 
 
 function randomizer(){
-let Who = Math.floor(Math.random()*what.length)+0
+let Who = Math.floor(Math.random()*who.length)+0
 let What = Math.floor(Math.random()*what.length)+0
-let When = Math.floor(Math.random()*what.length)+0
+let When = Math.floor(Math.random()*when.length)+0
 let excuse = who[Who]+' '+what[What]+' '+when[When];
 return excuse
 }
